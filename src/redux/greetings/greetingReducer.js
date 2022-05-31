@@ -1,29 +1,28 @@
-import axios from "axios"
+/* eslint-disable consistent-return */
+import axios from 'axios';
 
-const FETCH_GREETINGS = 'hello-rails-react/greetings/FETCH_GREETINGS'
+const FETCH_GREETINGS = 'hello-rails-react/greetings/FETCH_GREETINGS';
 
 const getGreetings = (payload) => ({
   type: FETCH_GREETINGS,
   payload,
-})
-
+});
 
 const initialState = {
-    greetings: []
-}
+  greetings: [],
+};
 
 export const fetchGreetingsFromApi = () => async (dispatch) => {
-    try {
-        const result = await axios.get('/api/v1/greetings');
-        const data = result.data.greetings
-        dispatch(getGreetings(data));
-    } catch (error) {
-        console.log(error.message);
-    }
-  };
+  try {
+    const result = await axios.get('/api/v1/greetings');
+    const data = result.data.greetings;
+    dispatch(getGreetings(data));
+  } catch (error) {
+    return error.message;
+  }
+};
 
 const greetingReducer = (state = initialState, action) => {
-  console.log(action.type);
   switch (action.type) {
     case FETCH_GREETINGS:
       return action.payload;
@@ -32,4 +31,4 @@ const greetingReducer = (state = initialState, action) => {
   }
 };
 
-export default greetingReducer
+export default greetingReducer;
