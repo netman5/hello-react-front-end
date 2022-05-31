@@ -14,7 +14,7 @@ const initialState = {
 
 export const fetchGreetingsFromApi = () => async (dispatch) => {
     try {
-        const result = await axios.get('http://localhost:3000/api/v1/greetings');
+        const result = await axios.get('/api/v1/greetings');
         const data = result.data.greetings
         dispatch(getGreetings(data));
     } catch (error) {
