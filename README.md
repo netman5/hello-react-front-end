@@ -1,46 +1,97 @@
-# Getting Started with Create React App and Redux
+![](https://img.shields.io/badge/hellorailsreact-dodgerblue.svg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# Hello-Rails-front-end
 
-## Available Scripts
 
-In the project directory, you can run:
+### Link to the backend [repo](https://github.com/netman5/hello-rails-back-end.git)
 
-### `npm start`
+> Implemented a connection between a Ruby on Rails back-end and React front-end in two applications with different repositories. This is front-and React app. Fetching messages from back-end endpoint and rendering in random order. Built using Frontend technologies including including React, Redux, React-Router-Dom etc.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Additional description about the project and its features.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This project contains two separate repositories: * hell-react-front-end * hello-rails-back-end.
 
-### `npm test`
+## Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Major languages
+- JSX
+- CSS
+- JavaScript
+- React
+- Redux
+- React-router-dom
 
-### `npm run build`
+- Technologies used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+- WebHint(Linting tool)
+- Jest(for testing)
+- Git(version control)
+- ESLint(JavaScript linting)
+- Stylelint(style linting)
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To get a local copy up and running follow these simple example steps.
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- A text editor(preferably Visual Studio Code)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [Git](https://git-scm.com/downloads)
+- [Node](https://nodejs.org/en/download/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Usage
 
-## Learn More
+#### Clone this repository
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git clone
+$ https://github.com/netman5/hello-react-front-end.git
+$ cd hello-react-front-end
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Run project
+
+```bash
+$ npm install
+$ npm run start
+```
+
+#### Open page in browser
+
+```bash
+$ runs on http://localhost:4000/
+```
+
+## Author
+
+👤 **Ola Ishola**
+
+- GitHub: [@netman5](https://github.com/netman5)
+- Twitter: [@Orlaish](https://twitter.com/Orlaish)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ola-ishola/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/netman5/hello-react-front-end/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+## Acknowledgments
+
+- Hat tip to Microverse & communities for being awesome!
+- [React](https://reactjs.org/) & [React-Redux](https://react-redux.js.org/)
+
+
+## 📝 License
+
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
