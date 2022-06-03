@@ -1,0 +1,31 @@
+body {
+  background-color: white;
+}
+
+.container,
+.greeting-container {
+  width: 70%;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.container,
+.greeting-container h1 {
+  color: #a8bcd0;
+}
+
+.btn {
+  background-color: #a8bcd0;
+  color: white;
+  border: 1px solid #a8bcd0;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.link-to {
+  color: #546372;
+  text-decoration: none;
+}
